@@ -18,13 +18,12 @@ nav {
     background-color: #345678;
     position: absolute;
     left: 0;
-    top: 0;/*прижимаем к верхней границе */
-    transition: all 1s;/* замедлить всё за 1 сек */
+    top: 0; /*прижимаем к верхней границе */
+    transition: all 1s; /* замедлить всё за 1 сек */
     display: flex; 
-    align-items: center;/*центр по гор. и верт. */
-    justify-content: center;
-    /*растянуть поцентру */
-    flex-direction: column;/*в колонку*/
+    align-items: center; /*центр по гор. и верт. */
+    justify-content: center; /*растянуть поцентру */
+    flex-direction: column; /*в колонку*/
 }
 
 a {
